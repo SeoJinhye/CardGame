@@ -1,9 +1,12 @@
-# CardGame
-Old Maiden:
+Modified Indian Poker
 
 52card + Joker
 
-# 1.people will evenly divide the cards
-# 2.if there is same card , people get rid of the card
-# 3.people pick one random card from other people.
-# 4.the last people to have Joker lose. 
+Each people will get two card
+without looking at indivisuals card, player will only have chance to bet by looking at opponient's card
+if nobody gives up, they pick up other card
+if one gives up, they will add up the score.
+
+scores: 2-10 Jack(11) Queen(12) King(14) ACE(15)
+Clubs(Assigned Number*1) Spades(Assigned Number*2) Hearts(Assigned Number*3) Diamonds(Assigned Number*4)
+Joker: 100
