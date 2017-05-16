@@ -1,9 +1,11 @@
-# CardGame
-Old Maiden:
+Modified Indian Poker
 
 52card + Joker
 
-# 1.people will evenly divide the cards
-# 2.if there is same card , people get rid of the card
-# 3.people pick one random card from other people.
-# 4.the last people to have Joker lose. 
+Each people will get two card
+The player will call the bet money
+without looking at indivisuals card, player will only have chance to bet by looking at opponient's card
+if player bets, and win player will earn that much money from oponets.
+if player bets and lose, player will lose that much money.
+if player gives up, and lose, player only lose 50% of that money.
+if player givesup but win, player will earn only 50% of money.
