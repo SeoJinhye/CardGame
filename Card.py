@@ -40,7 +40,7 @@ class Card:
             return 12
         elif(self.rank=="ace"):
             return 13
-        elif(self.rank == "Joker"):
+        elif(self.rank == "joker"):
             return 14
         else:
             return 0
@@ -54,6 +54,8 @@ class Card:
     		return 3
     	elif(self.suit =="spades"):
     		return 4
+        elif(self.suit == "joker"):
+            return 5
     	else:
     		return 0
 

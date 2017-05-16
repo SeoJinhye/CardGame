@@ -9,6 +9,8 @@ class Deck:
 		for suit in self.validSuits:
 			for rank in self.validRanks:
 			    self.value.append(Card(rank,suit))
+                self.value.append(Card("Joker","Joker"))
+    
     def DisplayDeck(self):
         for c in self.value:
     	    c.displayCard()
