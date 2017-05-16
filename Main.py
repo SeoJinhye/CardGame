@@ -69,10 +69,9 @@ while(CPUS > 0 or PlayerS > 0):
 		break
 	if(CPUS <= 0 or PlayerS <= 0):
 		break
-		
 if(CPUS > PlayerS):
-	print("You lost!")
+	print("You lost all the money You lost!")
 if(CPUS < PlayerS):
-	print("You Win!")
+	print("CPU lost all the money You Win! Buy a flight to Las Vegas!")
 if(CPUS == PlayerS):
 	print("Draw!")
