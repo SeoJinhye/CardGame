@@ -10,7 +10,7 @@ class Hand:
 
 	def pickrandomlyhand():
 		i = random()
-		self.remove(i)
+		self.carrds.remove(i)
 		print(i)
     	return card
 
