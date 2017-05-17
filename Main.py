@@ -41,6 +41,11 @@ while(CPUS > 0 or PlayerS > 0):
 	if(start == "s"):
 		print("Current " + PlayerN + " money: " + str(PlayerS) + "Current CPU money: " + str(CPUS))
 		Bet = int(input("How much do you want to bet?"))
+		while(Bet > PlayerS or Bet <=0):
+			print("invalid number please punch it agin")
+			Bet = int(input("How much do you want to bet?"))
+		if(Bet == PlayerS):
+			print("All in!")
 		P =gane.Player()
 		C = gane.CPU()
 		GS = raw_input("Press G to go, S to giveup")
@@ -73,7 +78,7 @@ while(CPUS > 0 or PlayerS > 0):
 	if(CPUS <= 0 or PlayerS <= 0):
 		break
 if(CPUS > PlayerS):
-	print(PlayerN+ " lost all the money" + PlayerN+ " lost!")
+	print(PlayerN+ " lost all the money. " + PlayerN+ " lost!")
 if(CPUS < PlayerS):
 	print("CPU lost all the money You Win!")
 if(CPUS == PlayerS):
