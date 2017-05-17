@@ -13,6 +13,7 @@ class Main():
 	def CPU(self):
 		Ccard = self.Deck.TakeFromBottom()
 		#self.Deck.DisplayDeck()
+		print("this is is what CPU has:")
 		Ccard.displayCard()
 		return Ccard
 
@@ -43,7 +44,7 @@ while(CPUS > 0 or PlayerS > 0):
 		P =gane.Player()
 		C = gane.CPU()
 		GS = raw_input("Press G to go, S to giveup")
-		if(GS == "G")	:
+		if(GS == 'G'):
 			if(Compare(P,C) == 1):
 				print("CPU wins!")
 				CPUS += Bet
@@ -72,7 +73,7 @@ while(CPUS > 0 or PlayerS > 0):
 	if(CPUS <= 0 or PlayerS <= 0):
 		break
 if(CPUS > PlayerS):
-	print(PlayerN+ "lost all the money You lost!")
+	print(PlayerN+ " lost all the money" + PlayerN+ " lost!")
 if(CPUS < PlayerS):
 	print("CPU lost all the money You Win!")
 if(CPUS == PlayerS):
